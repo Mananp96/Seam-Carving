@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/m/m_rajap/Documents/Project2_version3_vasu/code/build/CMakeFiles/3.8.2/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/build/CMakeFiles/3.8.2/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /encs/bin/g++ 
@@ -23,33 +23,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/m/m_rajap/Documents/Project2_version3_vasu/code/build/CMakeFiles/3.8.2/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/build/CMakeFiles/3.8.2/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/m/m_rajap/Documents/Project2_version3_vasu/code/build/CMakeFiles/CMakeTmp
+Change Dir: /home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_3c113/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_3c113.dir/build.make CMakeFiles/cmTC_3c113.dir/build
-gmake[1]: Entering directory `/nfs/home/m/m_rajap/Documents/Project2_version3_vasu/code/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3c113.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_3c113.dir/testCCompiler.c.o   -c /home/m/m_rajap/Documents/Project2_version3_vasu/code/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_3c113
-/nfs/encs/ArchDep/x86_64.EL7/pkg/cmake-3.8.2/root/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c113.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_3c113.dir/testCCompiler.c.o  -o cmTC_3c113 
-gmake[1]: Leaving directory `/nfs/home/m/m_rajap/Documents/Project2_version3_vasu/code/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_cb932/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_cb932.dir/build.make CMakeFiles/cmTC_cb932.dir/build
+gmake[1]: Entering directory `/nfs/home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cb932.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_cb932.dir/testCCompiler.c.o   -c /home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_cb932
+/nfs/encs/ArchDep/x86_64.EL7/pkg/cmake-3.8.2/root/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb932.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_cb932.dir/testCCompiler.c.o  -o cmTC_cb932 
+gmake[1]: Leaving directory `/nfs/home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/m/m_rajap/Documents/Project2_version3_vasu/code/build/CMakeFiles/CMakeTmp
+Change Dir: /home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_d384d/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_d384d.dir/build.make CMakeFiles/cmTC_d384d.dir/build
-gmake[1]: Entering directory `/nfs/home/m/m_rajap/Documents/Project2_version3_vasu/code/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d384d.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_d384d.dir/CMakeCCompilerABI.c.o   -c /nfs/encs/ArchDep/x86_64.EL7/pkg/cmake-3.8.2/root/share/cmake-3.8/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_d384d
-/nfs/encs/ArchDep/x86_64.EL7/pkg/cmake-3.8.2/root/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d384d.dir/link.txt --verbose=1
-/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_d384d.dir/CMakeCCompilerABI.c.o  -o cmTC_d384d 
+Run Build Command:"/usr/bin/gmake" "cmTC_d8ba6/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_d8ba6.dir/build.make CMakeFiles/cmTC_d8ba6.dir/build
+gmake[1]: Entering directory `/nfs/home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d8ba6.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d8ba6.dir/CMakeCCompilerABI.c.o   -c /nfs/encs/ArchDep/x86_64.EL7/pkg/cmake-3.8.2/root/share/cmake-3.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_d8ba6
+/nfs/encs/ArchDep/x86_64.EL7/pkg/cmake-3.8.2/root/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8ba6.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_d8ba6.dir/CMakeCCompilerABI.c.o  -o cmTC_d8ba6 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper
@@ -59,23 +59,23 @@ Thread model: posix
 gcc version 4.8.5 20150623 (Red Hat 4.8.5-28) (GCC) 
 COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_d384d' '-mtune=generic' '-march=x86-64'
- /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_d384d /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_d384d.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
-gmake[1]: Leaving directory `/nfs/home/m/m_rajap/Documents/Project2_version3_vasu/code/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_d8ba6' '-mtune=generic' '-march=x86-64'
+ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_d8ba6 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_d8ba6.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
+gmake[1]: Leaving directory `/nfs/home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/build/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/m/m_rajap/Documents/Project2_version3_vasu/code/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_d384d/fast"]
-  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_d384d.dir/build.make CMakeFiles/cmTC_d384d.dir/build]
-  ignore line: [gmake[1]: Entering directory `/nfs/home/m/m_rajap/Documents/Project2_version3_vasu/code/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_d384d.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_d384d.dir/CMakeCCompilerABI.c.o   -c /nfs/encs/ArchDep/x86_64.EL7/pkg/cmake-3.8.2/root/share/cmake-3.8/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_d384d]
-  ignore line: [/nfs/encs/ArchDep/x86_64.EL7/pkg/cmake-3.8.2/root/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d384d.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_d384d.dir/CMakeCCompilerABI.c.o  -o cmTC_d384d ]
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_d8ba6/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_d8ba6.dir/build.make CMakeFiles/cmTC_d8ba6.dir/build]
+  ignore line: [gmake[1]: Entering directory `/nfs/home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_d8ba6.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_d8ba6.dir/CMakeCCompilerABI.c.o   -c /nfs/encs/ArchDep/x86_64.EL7/pkg/cmake-3.8.2/root/share/cmake-3.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_d8ba6]
+  ignore line: [/nfs/encs/ArchDep/x86_64.EL7/pkg/cmake-3.8.2/root/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8ba6.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_d8ba6.dir/CMakeCCompilerABI.c.o  -o cmTC_d8ba6 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper]
@@ -85,8 +85,8 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 4.8.5 20150623 (Red Hat 4.8.5-28) (GCC) ]
   ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_d384d' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_d384d /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_d384d.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_d8ba6' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_d8ba6 /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_d8ba6.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
     arg [/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2] ==> ignore
     arg [--build-id] ==> ignore
     arg [--no-add-needed] ==> ignore
@@ -98,7 +98,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_d384d] ==> ignore
+    arg [cmTC_d8ba6] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o] ==> ignore
@@ -107,7 +107,7 @@ Parsed C implicit link information from above output:
     arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
     arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
     arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..]
-    arg [CMakeFiles/cmTC_d384d.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_d8ba6.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -136,17 +136,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/m/m_rajap/Documents/Project2_version3_vasu/code/build/CMakeFiles/CMakeTmp
+Change Dir: /home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_09682/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_09682.dir/build.make CMakeFiles/cmTC_09682.dir/build
-gmake[1]: Entering directory `/nfs/home/m/m_rajap/Documents/Project2_version3_vasu/code/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_09682.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_09682.dir/feature_tests.c.o   -c /home/m/m_rajap/Documents/Project2_version3_vasu/code/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_09682
-/nfs/encs/ArchDep/x86_64.EL7/pkg/cmake-3.8.2/root/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09682.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_09682.dir/feature_tests.c.o  -o cmTC_09682 
-gmake[1]: Leaving directory `/nfs/home/m/m_rajap/Documents/Project2_version3_vasu/code/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_be1a4/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_be1a4.dir/build.make CMakeFiles/cmTC_be1a4.dir/build
+gmake[1]: Entering directory `/nfs/home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_be1a4.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_be1a4.dir/feature_tests.c.o   -c /home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_be1a4
+/nfs/encs/ArchDep/x86_64.EL7/pkg/cmake-3.8.2/root/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be1a4.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_be1a4.dir/feature_tests.c.o  -o cmTC_be1a4 
+gmake[1]: Leaving directory `/nfs/home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -156,17 +156,17 @@ gmake[1]: Leaving directory `/nfs/home/m/m_rajap/Documents/Project2_version3_vas
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/m/m_rajap/Documents/Project2_version3_vasu/code/build/CMakeFiles/CMakeTmp
+Change Dir: /home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_c6ef2/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_c6ef2.dir/build.make CMakeFiles/cmTC_c6ef2.dir/build
-gmake[1]: Entering directory `/nfs/home/m/m_rajap/Documents/Project2_version3_vasu/code/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c6ef2.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_c6ef2.dir/feature_tests.c.o   -c /home/m/m_rajap/Documents/Project2_version3_vasu/code/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_c6ef2
-/nfs/encs/ArchDep/x86_64.EL7/pkg/cmake-3.8.2/root/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6ef2.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_c6ef2.dir/feature_tests.c.o  -o cmTC_c6ef2 
-gmake[1]: Leaving directory `/nfs/home/m/m_rajap/Documents/Project2_version3_vasu/code/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_ca8c0/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_ca8c0.dir/build.make CMakeFiles/cmTC_ca8c0.dir/build
+gmake[1]: Entering directory `/nfs/home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ca8c0.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_ca8c0.dir/feature_tests.c.o   -c /home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_ca8c0
+/nfs/encs/ArchDep/x86_64.EL7/pkg/cmake-3.8.2/root/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca8c0.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_ca8c0.dir/feature_tests.c.o  -o cmTC_ca8c0 
+gmake[1]: Leaving directory `/nfs/home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -176,17 +176,17 @@ gmake[1]: Leaving directory `/nfs/home/m/m_rajap/Documents/Project2_version3_vas
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/m/m_rajap/Documents/Project2_version3_vasu/code/build/CMakeFiles/CMakeTmp
+Change Dir: /home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_a066b/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_a066b.dir/build.make CMakeFiles/cmTC_a066b.dir/build
-gmake[1]: Entering directory `/nfs/home/m/m_rajap/Documents/Project2_version3_vasu/code/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a066b.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_a066b.dir/feature_tests.c.o   -c /home/m/m_rajap/Documents/Project2_version3_vasu/code/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_a066b
-/nfs/encs/ArchDep/x86_64.EL7/pkg/cmake-3.8.2/root/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a066b.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_a066b.dir/feature_tests.c.o  -o cmTC_a066b 
-gmake[1]: Leaving directory `/nfs/home/m/m_rajap/Documents/Project2_version3_vasu/code/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_e0d10/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_e0d10.dir/build.make CMakeFiles/cmTC_e0d10.dir/build
+gmake[1]: Entering directory `/nfs/home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e0d10.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_e0d10.dir/feature_tests.c.o   -c /home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_e0d10
+/nfs/encs/ArchDep/x86_64.EL7/pkg/cmake-3.8.2/root/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0d10.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e0d10.dir/feature_tests.c.o  -o cmTC_e0d10 
+gmake[1]: Leaving directory `/nfs/home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -194,30 +194,30 @@ gmake[1]: Leaving directory `/nfs/home/m/m_rajap/Documents/Project2_version3_vas
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/m/m_rajap/Documents/Project2_version3_vasu/code/build/CMakeFiles/CMakeTmp
+Change Dir: /home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_1beee/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_1beee.dir/build.make CMakeFiles/cmTC_1beee.dir/build
-gmake[1]: Entering directory `/nfs/home/m/m_rajap/Documents/Project2_version3_vasu/code/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_1beee.dir/testCXXCompiler.cxx.o
-/encs/bin/g++     -o CMakeFiles/cmTC_1beee.dir/testCXXCompiler.cxx.o -c /home/m/m_rajap/Documents/Project2_version3_vasu/code/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_1beee
-/nfs/encs/ArchDep/x86_64.EL7/pkg/cmake-3.8.2/root/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1beee.dir/link.txt --verbose=1
-/encs/bin/g++       -rdynamic CMakeFiles/cmTC_1beee.dir/testCXXCompiler.cxx.o  -o cmTC_1beee 
-gmake[1]: Leaving directory `/nfs/home/m/m_rajap/Documents/Project2_version3_vasu/code/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_65076/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_65076.dir/build.make CMakeFiles/cmTC_65076.dir/build
+gmake[1]: Entering directory `/nfs/home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_65076.dir/testCXXCompiler.cxx.o
+/encs/bin/g++     -o CMakeFiles/cmTC_65076.dir/testCXXCompiler.cxx.o -c /home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_65076
+/nfs/encs/ArchDep/x86_64.EL7/pkg/cmake-3.8.2/root/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65076.dir/link.txt --verbose=1
+/encs/bin/g++       -rdynamic CMakeFiles/cmTC_65076.dir/testCXXCompiler.cxx.o  -o cmTC_65076 
+gmake[1]: Leaving directory `/nfs/home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/m/m_rajap/Documents/Project2_version3_vasu/code/build/CMakeFiles/CMakeTmp
+Change Dir: /home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_750fd/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_750fd.dir/build.make CMakeFiles/cmTC_750fd.dir/build
-gmake[1]: Entering directory `/nfs/home/m/m_rajap/Documents/Project2_version3_vasu/code/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_750fd.dir/CMakeCXXCompilerABI.cpp.o
-/encs/bin/g++     -o CMakeFiles/cmTC_750fd.dir/CMakeCXXCompilerABI.cpp.o -c /nfs/encs/ArchDep/x86_64.EL7/pkg/cmake-3.8.2/root/share/cmake-3.8/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_750fd
-/nfs/encs/ArchDep/x86_64.EL7/pkg/cmake-3.8.2/root/bin/cmake -E cmake_link_script CMakeFiles/cmTC_750fd.dir/link.txt --verbose=1
-/encs/bin/g++      -v -rdynamic CMakeFiles/cmTC_750fd.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_750fd 
+Run Build Command:"/usr/bin/gmake" "cmTC_15c15/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_15c15.dir/build.make CMakeFiles/cmTC_15c15.dir/build
+gmake[1]: Entering directory `/nfs/home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_15c15.dir/CMakeCXXCompilerABI.cpp.o
+/encs/bin/g++     -o CMakeFiles/cmTC_15c15.dir/CMakeCXXCompilerABI.cpp.o -c /nfs/encs/ArchDep/x86_64.EL7/pkg/cmake-3.8.2/root/share/cmake-3.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_15c15
+/nfs/encs/ArchDep/x86_64.EL7/pkg/cmake-3.8.2/root/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15c15.dir/link.txt --verbose=1
+/encs/bin/g++      -v -rdynamic CMakeFiles/cmTC_15c15.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_15c15 
 Using built-in specs.
 COLLECT_GCC=/encs/bin/g++
 COLLECT_LTO_WRAPPER=/nfs/encs/ArchDep/x86_64.EL7/pkg/gcc-4.9.2/root/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.9.2/lto-wrapper
@@ -227,23 +227,23 @@ Thread model: posix
 gcc version 4.9.2 (GCC) 
 COMPILER_PATH=/nfs/encs/ArchDep/x86_64.EL7/pkg/gcc-4.9.2/root/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.9.2/:/nfs/encs/ArchDep/x86_64.EL7/pkg/gcc-4.9.2/root/bin/../libexec/gcc/
 LIBRARY_PATH=/nfs/encs/ArchDep/x86_64.EL7/pkg/gcc-4.9.2/root/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.9.2/:/nfs/encs/ArchDep/x86_64.EL7/pkg/gcc-4.9.2/root/bin/../lib/gcc/:/nfs/encs/ArchDep/x86_64.EL7/pkg/gcc-4.9.2/root/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/nfs/encs/ArchDep/x86_64.EL7/pkg/gcc-4.9.2/root/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_750fd' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /nfs/encs/ArchDep/x86_64.EL7/pkg/gcc-4.9.2/root/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.9.2/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -L/encs/pkg/gcc-4.9.2/root/lib64 -rpath /encs/pkg/gcc-4.9.2/root/lib64 -o cmTC_750fd /lib/../lib64/crt1.o /lib/../lib64/crti.o /nfs/encs/ArchDep/x86_64.EL7/pkg/gcc-4.9.2/root/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.9.2/crtbegin.o -L/nfs/encs/ArchDep/x86_64.EL7/pkg/gcc-4.9.2/root/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.9.2 -L/nfs/encs/ArchDep/x86_64.EL7/pkg/gcc-4.9.2/root/bin/../lib/gcc -L/nfs/encs/ArchDep/x86_64.EL7/pkg/gcc-4.9.2/root/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/nfs/encs/ArchDep/x86_64.EL7/pkg/gcc-4.9.2/root/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../.. CMakeFiles/cmTC_750fd.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /nfs/encs/ArchDep/x86_64.EL7/pkg/gcc-4.9.2/root/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.9.2/crtend.o /lib/../lib64/crtn.o
-gmake[1]: Leaving directory `/nfs/home/m/m_rajap/Documents/Project2_version3_vasu/code/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_15c15' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /nfs/encs/ArchDep/x86_64.EL7/pkg/gcc-4.9.2/root/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.9.2/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -L/encs/pkg/gcc-4.9.2/root/lib64 -rpath /encs/pkg/gcc-4.9.2/root/lib64 -o cmTC_15c15 /lib/../lib64/crt1.o /lib/../lib64/crti.o /nfs/encs/ArchDep/x86_64.EL7/pkg/gcc-4.9.2/root/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.9.2/crtbegin.o -L/nfs/encs/ArchDep/x86_64.EL7/pkg/gcc-4.9.2/root/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.9.2 -L/nfs/encs/ArchDep/x86_64.EL7/pkg/gcc-4.9.2/root/bin/../lib/gcc -L/nfs/encs/ArchDep/x86_64.EL7/pkg/gcc-4.9.2/root/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/nfs/encs/ArchDep/x86_64.EL7/pkg/gcc-4.9.2/root/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../.. CMakeFiles/cmTC_15c15.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /nfs/encs/ArchDep/x86_64.EL7/pkg/gcc-4.9.2/root/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.9.2/crtend.o /lib/../lib64/crtn.o
+gmake[1]: Leaving directory `/nfs/home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/build/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/m/m_rajap/Documents/Project2_version3_vasu/code/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_750fd/fast"]
-  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_750fd.dir/build.make CMakeFiles/cmTC_750fd.dir/build]
-  ignore line: [gmake[1]: Entering directory `/nfs/home/m/m_rajap/Documents/Project2_version3_vasu/code/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_750fd.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/encs/bin/g++     -o CMakeFiles/cmTC_750fd.dir/CMakeCXXCompilerABI.cpp.o -c /nfs/encs/ArchDep/x86_64.EL7/pkg/cmake-3.8.2/root/share/cmake-3.8/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_750fd]
-  ignore line: [/nfs/encs/ArchDep/x86_64.EL7/pkg/cmake-3.8.2/root/bin/cmake -E cmake_link_script CMakeFiles/cmTC_750fd.dir/link.txt --verbose=1]
-  ignore line: [/encs/bin/g++      -v -rdynamic CMakeFiles/cmTC_750fd.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_750fd ]
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_15c15/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_15c15.dir/build.make CMakeFiles/cmTC_15c15.dir/build]
+  ignore line: [gmake[1]: Entering directory `/nfs/home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_15c15.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/encs/bin/g++     -o CMakeFiles/cmTC_15c15.dir/CMakeCXXCompilerABI.cpp.o -c /nfs/encs/ArchDep/x86_64.EL7/pkg/cmake-3.8.2/root/share/cmake-3.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_15c15]
+  ignore line: [/nfs/encs/ArchDep/x86_64.EL7/pkg/cmake-3.8.2/root/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15c15.dir/link.txt --verbose=1]
+  ignore line: [/encs/bin/g++      -v -rdynamic CMakeFiles/cmTC_15c15.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_15c15 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/encs/bin/g++]
   ignore line: [COLLECT_LTO_WRAPPER=/nfs/encs/ArchDep/x86_64.EL7/pkg/gcc-4.9.2/root/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.9.2/lto-wrapper]
@@ -253,8 +253,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 4.9.2 (GCC) ]
   ignore line: [COMPILER_PATH=/nfs/encs/ArchDep/x86_64.EL7/pkg/gcc-4.9.2/root/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.9.2/:/nfs/encs/ArchDep/x86_64.EL7/pkg/gcc-4.9.2/root/bin/../libexec/gcc/]
   ignore line: [LIBRARY_PATH=/nfs/encs/ArchDep/x86_64.EL7/pkg/gcc-4.9.2/root/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.9.2/:/nfs/encs/ArchDep/x86_64.EL7/pkg/gcc-4.9.2/root/bin/../lib/gcc/:/nfs/encs/ArchDep/x86_64.EL7/pkg/gcc-4.9.2/root/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/nfs/encs/ArchDep/x86_64.EL7/pkg/gcc-4.9.2/root/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_750fd' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /nfs/encs/ArchDep/x86_64.EL7/pkg/gcc-4.9.2/root/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.9.2/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -L/encs/pkg/gcc-4.9.2/root/lib64 -rpath /encs/pkg/gcc-4.9.2/root/lib64 -o cmTC_750fd /lib/../lib64/crt1.o /lib/../lib64/crti.o /nfs/encs/ArchDep/x86_64.EL7/pkg/gcc-4.9.2/root/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.9.2/crtbegin.o -L/nfs/encs/ArchDep/x86_64.EL7/pkg/gcc-4.9.2/root/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.9.2 -L/nfs/encs/ArchDep/x86_64.EL7/pkg/gcc-4.9.2/root/bin/../lib/gcc -L/nfs/encs/ArchDep/x86_64.EL7/pkg/gcc-4.9.2/root/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/nfs/encs/ArchDep/x86_64.EL7/pkg/gcc-4.9.2/root/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../.. CMakeFiles/cmTC_750fd.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /nfs/encs/ArchDep/x86_64.EL7/pkg/gcc-4.9.2/root/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.9.2/crtend.o /lib/../lib64/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_15c15' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /nfs/encs/ArchDep/x86_64.EL7/pkg/gcc-4.9.2/root/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.9.2/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -L/encs/pkg/gcc-4.9.2/root/lib64 -rpath /encs/pkg/gcc-4.9.2/root/lib64 -o cmTC_15c15 /lib/../lib64/crt1.o /lib/../lib64/crti.o /nfs/encs/ArchDep/x86_64.EL7/pkg/gcc-4.9.2/root/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.9.2/crtbegin.o -L/nfs/encs/ArchDep/x86_64.EL7/pkg/gcc-4.9.2/root/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.9.2 -L/nfs/encs/ArchDep/x86_64.EL7/pkg/gcc-4.9.2/root/bin/../lib/gcc -L/nfs/encs/ArchDep/x86_64.EL7/pkg/gcc-4.9.2/root/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/nfs/encs/ArchDep/x86_64.EL7/pkg/gcc-4.9.2/root/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../.. CMakeFiles/cmTC_15c15.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /nfs/encs/ArchDep/x86_64.EL7/pkg/gcc-4.9.2/root/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.9.2/crtend.o /lib/../lib64/crtn.o]
     arg [/nfs/encs/ArchDep/x86_64.EL7/pkg/gcc-4.9.2/root/bin/../libexec/gcc/x86_64-unknown-linux-gnu/4.9.2/collect2] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
     arg [-m] ==> ignore
@@ -266,7 +266,7 @@ Parsed CXX implicit link information from above output:
     arg [-rpath] ==> ignore
     arg [/encs/pkg/gcc-4.9.2/root/lib64] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_750fd] ==> ignore
+    arg [cmTC_15c15] ==> ignore
     arg [/lib/../lib64/crt1.o] ==> ignore
     arg [/lib/../lib64/crti.o] ==> ignore
     arg [/nfs/encs/ArchDep/x86_64.EL7/pkg/gcc-4.9.2/root/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.9.2/crtbegin.o] ==> ignore
@@ -276,7 +276,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
     arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
     arg [-L/nfs/encs/ArchDep/x86_64.EL7/pkg/gcc-4.9.2/root/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../..] ==> dir [/nfs/encs/ArchDep/x86_64.EL7/pkg/gcc-4.9.2/root/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.9.2/../../..]
-    arg [CMakeFiles/cmTC_750fd.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_15c15.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -305,17 +305,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/m/m_rajap/Documents/Project2_version3_vasu/code/build/CMakeFiles/CMakeTmp
+Change Dir: /home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_f9d45/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_f9d45.dir/build.make CMakeFiles/cmTC_f9d45.dir/build
-gmake[1]: Entering directory `/nfs/home/m/m_rajap/Documents/Project2_version3_vasu/code/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_f9d45.dir/feature_tests.cxx.o
-/encs/bin/g++    -std=c++14 -o CMakeFiles/cmTC_f9d45.dir/feature_tests.cxx.o -c /home/m/m_rajap/Documents/Project2_version3_vasu/code/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_f9d45
-/nfs/encs/ArchDep/x86_64.EL7/pkg/cmake-3.8.2/root/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9d45.dir/link.txt --verbose=1
-/encs/bin/g++       -rdynamic CMakeFiles/cmTC_f9d45.dir/feature_tests.cxx.o  -o cmTC_f9d45 
-gmake[1]: Leaving directory `/nfs/home/m/m_rajap/Documents/Project2_version3_vasu/code/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_a92b3/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_a92b3.dir/build.make CMakeFiles/cmTC_a92b3.dir/build
+gmake[1]: Entering directory `/nfs/home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a92b3.dir/feature_tests.cxx.o
+/encs/bin/g++    -std=c++14 -o CMakeFiles/cmTC_a92b3.dir/feature_tests.cxx.o -c /home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_a92b3
+/nfs/encs/ArchDep/x86_64.EL7/pkg/cmake-3.8.2/root/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a92b3.dir/link.txt --verbose=1
+/encs/bin/g++       -rdynamic CMakeFiles/cmTC_a92b3.dir/feature_tests.cxx.o  -o cmTC_a92b3 
+gmake[1]: Leaving directory `/nfs/home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -378,17 +378,17 @@ gmake[1]: Leaving directory `/nfs/home/m/m_rajap/Documents/Project2_version3_vas
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/m/m_rajap/Documents/Project2_version3_vasu/code/build/CMakeFiles/CMakeTmp
+Change Dir: /home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_25490/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_25490.dir/build.make CMakeFiles/cmTC_25490.dir/build
-gmake[1]: Entering directory `/nfs/home/m/m_rajap/Documents/Project2_version3_vasu/code/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_25490.dir/feature_tests.cxx.o
-/encs/bin/g++    -std=c++11 -o CMakeFiles/cmTC_25490.dir/feature_tests.cxx.o -c /home/m/m_rajap/Documents/Project2_version3_vasu/code/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_25490
-/nfs/encs/ArchDep/x86_64.EL7/pkg/cmake-3.8.2/root/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25490.dir/link.txt --verbose=1
-/encs/bin/g++       -rdynamic CMakeFiles/cmTC_25490.dir/feature_tests.cxx.o  -o cmTC_25490 
-gmake[1]: Leaving directory `/nfs/home/m/m_rajap/Documents/Project2_version3_vasu/code/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_1708f/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_1708f.dir/build.make CMakeFiles/cmTC_1708f.dir/build
+gmake[1]: Entering directory `/nfs/home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1708f.dir/feature_tests.cxx.o
+/encs/bin/g++    -std=c++11 -o CMakeFiles/cmTC_1708f.dir/feature_tests.cxx.o -c /home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_1708f
+/nfs/encs/ArchDep/x86_64.EL7/pkg/cmake-3.8.2/root/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1708f.dir/link.txt --verbose=1
+/encs/bin/g++       -rdynamic CMakeFiles/cmTC_1708f.dir/feature_tests.cxx.o  -o cmTC_1708f 
+gmake[1]: Leaving directory `/nfs/home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -451,17 +451,17 @@ gmake[1]: Leaving directory `/nfs/home/m/m_rajap/Documents/Project2_version3_vas
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/m/m_rajap/Documents/Project2_version3_vasu/code/build/CMakeFiles/CMakeTmp
+Change Dir: /home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/gmake" "cmTC_0a58f/fast"
-/usr/bin/gmake -f CMakeFiles/cmTC_0a58f.dir/build.make CMakeFiles/cmTC_0a58f.dir/build
-gmake[1]: Entering directory `/nfs/home/m/m_rajap/Documents/Project2_version3_vasu/code/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_0a58f.dir/feature_tests.cxx.o
-/encs/bin/g++    -std=c++98 -o CMakeFiles/cmTC_0a58f.dir/feature_tests.cxx.o -c /home/m/m_rajap/Documents/Project2_version3_vasu/code/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_0a58f
-/nfs/encs/ArchDep/x86_64.EL7/pkg/cmake-3.8.2/root/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a58f.dir/link.txt --verbose=1
-/encs/bin/g++       -rdynamic CMakeFiles/cmTC_0a58f.dir/feature_tests.cxx.o  -o cmTC_0a58f 
-gmake[1]: Leaving directory `/nfs/home/m/m_rajap/Documents/Project2_version3_vasu/code/build/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/gmake" "cmTC_b33de/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_b33de.dir/build.make CMakeFiles/cmTC_b33de.dir/build
+gmake[1]: Entering directory `/nfs/home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b33de.dir/feature_tests.cxx.o
+/encs/bin/g++    -std=c++98 -o CMakeFiles/cmTC_b33de.dir/feature_tests.cxx.o -c /home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_b33de
+/nfs/encs/ArchDep/x86_64.EL7/pkg/cmake-3.8.2/root/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b33de.dir/link.txt --verbose=1
+/encs/bin/g++       -rdynamic CMakeFiles/cmTC_b33de.dir/feature_tests.cxx.o  -o cmTC_b33de 
+gmake[1]: Leaving directory `/nfs/home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

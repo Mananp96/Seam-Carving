@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/m/m_rajap/Documents/Project2_version3_vasu/code/src/main.cpp" "/home/m/m_rajap/Documents/Project2_version3_vasu/code/build/CMakeFiles/sc.dir/src/main.cpp.o"
-  "/home/m/m_rajap/Documents/Project2_version3_vasu/code/src/sc.cpp" "/home/m/m_rajap/Documents/Project2_version3_vasu/code/build/CMakeFiles/sc.dir/src/sc.cpp.o"
+  "/home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/src/main.cpp" "/home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/build/CMakeFiles/sc.dir/src/main.cpp.o"
+  "/home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/src/sc.cpp" "/home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/build/CMakeFiles/sc.dir/src/sc.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

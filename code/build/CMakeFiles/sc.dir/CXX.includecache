@@ -1262,13 +1262,13 @@ opencv2/core/cuda.hpp
 opencv2/features2d.hpp
 /encs/pkg/opencv-3.3.0/root/include/opencv2/xfeatures2d/opencv2/features2d.hpp
 
-/home/m/m_rajap/Documents/Project2_version3_vasu/code/src/main.cpp
+/home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/src/main.cpp
 opencv2/opencv.hpp
 -
 sc.h
-/home/m/m_rajap/Documents/Project2_version3_vasu/code/src/sc.h
+/home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/src/sc.h
 
-/home/m/m_rajap/Documents/Project2_version3_vasu/code/src/sc.cpp
+/home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/src/sc.cpp
 cmath
 -
 limits
@@ -1276,9 +1276,11 @@ limits
 vector
 -
 sc.h
-/home/m/m_rajap/Documents/Project2_version3_vasu/code/src/sc.h
+/home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/src/sc.h
 
-/home/m/m_rajap/Documents/Project2_version3_vasu/code/src/sc.h
+/home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/src/sc.h
 opencv2/opencv.hpp
+-
+opencv2/imgproc.hpp
 -
 

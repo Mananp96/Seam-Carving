@@ -43,10 +43,10 @@ RM = /nfs/encs/ArchDep/x86_64.EL7/pkg/cmake-3.8.2/root/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/m/m_rajap/Documents/Project2_version3_vasu/code
+CMAKE_SOURCE_DIR = /home/m/m_rajap/Documents/Manan-github/Seam-Carving/code
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/m/m_rajap/Documents/Project2_version3_vasu/code/build
+CMAKE_BINARY_DIR = /home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/sc.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/sc.dir/flags.make
 
 CMakeFiles/sc.dir/src/main.cpp.o: CMakeFiles/sc.dir/flags.make
 CMakeFiles/sc.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/m/m_rajap/Documents/Project2_version3_vasu/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/sc.dir/src/main.cpp.o"
-	/encs/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sc.dir/src/main.cpp.o -c /home/m/m_rajap/Documents/Project2_version3_vasu/code/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/sc.dir/src/main.cpp.o"
+	/encs/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sc.dir/src/main.cpp.o -c /home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/src/main.cpp
 
 CMakeFiles/sc.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sc.dir/src/main.cpp.i"
-	/encs/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m/m_rajap/Documents/Project2_version3_vasu/code/src/main.cpp > CMakeFiles/sc.dir/src/main.cpp.i
+	/encs/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/src/main.cpp > CMakeFiles/sc.dir/src/main.cpp.i
 
 CMakeFiles/sc.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sc.dir/src/main.cpp.s"
-	/encs/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m/m_rajap/Documents/Project2_version3_vasu/code/src/main.cpp -o CMakeFiles/sc.dir/src/main.cpp.s
+	/encs/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/src/main.cpp -o CMakeFiles/sc.dir/src/main.cpp.s
 
 CMakeFiles/sc.dir/src/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/sc.dir/src/main.cpp.o.provides.build: CMakeFiles/sc.dir/src/main.cpp.
 
 CMakeFiles/sc.dir/src/sc.cpp.o: CMakeFiles/sc.dir/flags.make
 CMakeFiles/sc.dir/src/sc.cpp.o: ../src/sc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/m/m_rajap/Documents/Project2_version3_vasu/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sc.dir/src/sc.cpp.o"
-	/encs/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sc.dir/src/sc.cpp.o -c /home/m/m_rajap/Documents/Project2_version3_vasu/code/src/sc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sc.dir/src/sc.cpp.o"
+	/encs/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sc.dir/src/sc.cpp.o -c /home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/src/sc.cpp
 
 CMakeFiles/sc.dir/src/sc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sc.dir/src/sc.cpp.i"
-	/encs/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m/m_rajap/Documents/Project2_version3_vasu/code/src/sc.cpp > CMakeFiles/sc.dir/src/sc.cpp.i
+	/encs/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/src/sc.cpp > CMakeFiles/sc.dir/src/sc.cpp.i
 
 CMakeFiles/sc.dir/src/sc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sc.dir/src/sc.cpp.s"
-	/encs/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m/m_rajap/Documents/Project2_version3_vasu/code/src/sc.cpp -o CMakeFiles/sc.dir/src/sc.cpp.s
+	/encs/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/src/sc.cpp -o CMakeFiles/sc.dir/src/sc.cpp.s
 
 CMakeFiles/sc.dir/src/sc.cpp.o.requires:
 
@@ -117,7 +117,7 @@ sc: CMakeFiles/sc.dir/src/main.cpp.o
 sc: CMakeFiles/sc.dir/src/sc.cpp.o
 sc: CMakeFiles/sc.dir/build.make
 sc: CMakeFiles/sc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/m/m_rajap/Documents/Project2_version3_vasu/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable sc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable sc"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sc.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -135,6 +135,6 @@ CMakeFiles/sc.dir/clean:
 .PHONY : CMakeFiles/sc.dir/clean
 
 CMakeFiles/sc.dir/depend:
-	cd /home/m/m_rajap/Documents/Project2_version3_vasu/code/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/m/m_rajap/Documents/Project2_version3_vasu/code /home/m/m_rajap/Documents/Project2_version3_vasu/code /home/m/m_rajap/Documents/Project2_version3_vasu/code/build /home/m/m_rajap/Documents/Project2_version3_vasu/code/build /home/m/m_rajap/Documents/Project2_version3_vasu/code/build/CMakeFiles/sc.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/m/m_rajap/Documents/Manan-github/Seam-Carving/code /home/m/m_rajap/Documents/Manan-github/Seam-Carving/code /home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/build /home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/build /home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/build/CMakeFiles/sc.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/sc.dir/depend
 

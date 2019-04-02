@@ -34,7 +34,7 @@ int main( int argc, char** argv )
     
     // the output image
     Mat out_image;
-    if(!sanityCheck(int new_width, int new_height, in_image.cols, in_image.rows)){
+    if(!sanityCheck(new_width,new_height,in_image.cols,in_image.rows)){
 		return -1;
 	}
 	

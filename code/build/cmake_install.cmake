@@ -1,4 +1,4 @@
-# Install script for directory: /home/m/m_rajap/Documents/Project2_version3_vasu/code
+# Install script for directory: /home/m/m_rajap/Documents/Manan-github/Seam-Carving/code
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/m/m_rajap/Documents/Project2_version3_vasu/code/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/m/m_rajap/Documents/Manan-github/Seam-Carving/code/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
