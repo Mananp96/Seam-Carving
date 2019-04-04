@@ -12,7 +12,7 @@
 #include "sc.h"
 #define MINIMUM_OF(value1, value2) ((value1 < value2) ? value1 : value2)
 #define MAXIMUM_OF(value1, value2) ((value1 > value2) ? value1 : value2) 
-
+#define integer_max 2147483647
 using namespace cv;
 using namespace std;
 
@@ -97,42 +97,57 @@ vector<int> dynamicProgramming(Mat& energyImage, char direction /*Seam_Location 
 	for (int i = 0; i < energyImage.rows; ++i) {
 		energyValues[i] = new double[energyImage.cols];
 	}
+	
+	for (int i = 0; i < energyImage.rows; i++)
+			for (int j = 0; j < energyImage.cols; j++)
+				energyValues[i][j] = (double)energyImage.at<uchar>(i, j);
+	
+	/*for (int j = -1; j < energyImage.cols+1; j++){
+		energyValues[-1][j] = integer_max;
+		energyValues[energyImage.rows][j] = integer_max;
+		
+	}
+	for (int i = -1; i < energyImage.rows+1; i++){
+		energyValues[i][-1] = integer_max;
+		energyValues[i][energyImage.cols] = integer_max;
+	}
+	*/
 
 	if (direction == 'V' /*seam_type == VERTICAL*/) {
 		indexPath.resize(energyImage.rows);
 
 		//filling the table with all pixel energy values -- add one more rows and column with infinity values.
 		// -- change the pixel energy from int to double for acuracy.
-		for (int i = 0; i < energyImage.rows; i++)
-			for (int j = 0; j < energyImage.cols; j++)
-				energyValues[i][j] = (double)energyImage.at<uchar>(i, j);
+			//pixel1 = energyValues[i-1][max((j-1),0]
+			//pixel2 = energyValues[i-1] [j]
+			//pixel3 = energyValues [i-1] [min((j+1),energyImage.cols-1)]
 		
-		/*	updating the table with minimum cost values --  remove extra conditions
-			pixel1 = energyValues[i-1][max((j-1),0]
-			pixel2 = energyValues[i-1] [j]
-			pixel3 = energyValues [i-1] [min((j+1),energyImage.cols-1)]
-		*/
+		
 		//updating the table with minimum cost values
 		for (int i = 1; i < energyImage.rows; i++) {
 			for (int j = 0; j < energyImage.cols; j++) {
-				int index1 = i-1;
-				int index2 = j - 1;
-				int index3 = j + 1;
-				int index4 = j;
+				// int index1 = i-1;
+				// int index2 = j - 1;
+				// int index3 = j + 1;
+				// int index4 = j;
 
-				double energyPixel1 = energyValues[index1][index2];
-				double energyPixel2 = energyValues[index1][index4];
-				double energyPixel3 = energyValues[index1][index3];
+				// double energyPixel1 = energyValues[index1][index2];
+				// double energyPixel2 = energyValues[index1][index4];
+				// double energyPixel3 = energyValues[index1][index3];
 
-				if (j == 0) {
-					energyValues[i][j] += min(energyPixel2, energyPixel3);
-				}
-				else if (j == energyImage.cols - 1) {
-					energyValues[i][j] += min(energyPixel1, energyPixel2);
-				}
-				else {
-					energyValues[i][j] += min(energyPixel1,min(energyPixel2,energyPixel3));		
-				}
+				// if (j == 0) {
+					// energyValues[i][j] += MINIMUM_OF(energyPixel2, energyPixel3);
+				// }
+				// else if (j == energyImage.cols - 1) {
+					// energyValues[i][j] += MINIMUM_OF(energyPixel1, energyPixel2);
+				// }
+				// else {
+					// energyValues[i][j] += MINIMUM_OF(energyPixel1,min(energyPixel2,energyPixel3));		
+				// }
+				double pixel1 = energyValues[i-1][max((j-1),0)];
+				double pixel2 = energyValues[i-1] [j];
+				double pixel3 = energyValues [i-1] [min((j+1),energyImage.cols-1)];
+				energyValues[i][j] += MINIMUM_OF(pixel1, MINIMUM_OF(pixel2, pixel3));
 			}
 		}
 
@@ -142,25 +157,25 @@ vector<int> dynamicProgramming(Mat& energyImage, char direction /*Seam_Location 
 		// change -- way to implement
 		//find_Minimum_Value_Path(direction, energyValues, energyImage);
 		for (int i = energyImage.rows - 2; i >= 0; i--) { // reducing width	
-			int value1 = max(minValueIndex - 1, 0);
+			int value1 = MAXIMUM_OF(minValueIndex - 1, 0);
 			int value2 = minValueIndex;
-			int value3 = min(minValueIndex + 1, energyImage.cols - 1);
+			int value3 = MINIMUM_OF(minValueIndex + 1, energyImage.cols - 1);
 			int pixelRate1 = energyValues[i][value1];
 			int pixelRate2 = energyValues[i][value2];
 			int pixelRate3 = energyValues[i][value3];
 			
-			if (min(pixelRate1, pixelRate2) > pixelRate3) {
+			if (MINIMUM_OF(pixelRate1, pixelRate2) > pixelRate3) {
                			pathIndex = 1;
             		}
-           		else if (min(pixelRate1, pixelRate3) > pixelRate2) {
+           		else if (MINIMUM_OF(pixelRate1, pixelRate3) > pixelRate2) {
                 		pathIndex = 0;
             		}
-            		else if (min(pixelRate2, pixelRate3) > pixelRate1) {
+            		else if (MINIMUM_OF(pixelRate2, pixelRate3) > pixelRate1) {
                			pathIndex = -1;
            		}
 			
 			minValueIndex += pathIndex;
-          		minValueIndex = min(max(minValueIndex, 0), energyImage.cols - 1); // take care of edge cases
+          		minValueIndex = MINIMUM_OF(MAXIMUM_OF(minValueIndex, 0), energyImage.cols - 1); // take care of edge cases
 			indexPath.at(i) = minValueIndex;
 		}
 	}
@@ -170,9 +185,7 @@ vector<int> dynamicProgramming(Mat& energyImage, char direction /*Seam_Location 
 		indexPath.resize(energyImage.cols);
 		//int energyValues[energyImage.rows][energyImage.cols];
 		
-		for (int i = 0; i < energyImage.rows; i++)
-			for (int j = 0; j < energyImage.cols; j++)
-				energyValues[i][j] = (double)energyImage.at<uchar>(i, j);
+		
 
 		/*	updating the table with minimum cost values --  remove extra conditions
 			pixel1 = energyValues[max((i-1),0)][j-1]
@@ -182,18 +195,22 @@ vector<int> dynamicProgramming(Mat& energyImage, char direction /*Seam_Location 
 		for (int j = 1; j < energyImage.cols; j++) {
 			for (int i = 0; i < energyImage.rows; i++) {
 				
-				if (i == 0) {
-					energyValues[i][j] = energyValues[i][j] + min(energyValues[i][j - 1], energyValues[i + 1][j - 1]);
-				}
-				else if (i == energyImage.rows - 1) {
-					energyValues[i][j] = energyValues[i][j] + min(energyValues[i - 1][j - 1], energyValues[i][j - 1]);
-				}
-				else {
-					double pixelValue1 = energyValues[i - 1][j - 1];
-					double pixelValue2 = energyValues[i][j - 1];
-					double pixelValue3 = energyValues[i + 1][j - 1];
-					energyValues[i][j] = energyValues[i][j] + min(pixelValue1, min(pixelValue2, pixelValue3));
-				}
+				// if (i == 0) {
+					// energyValues[i][j] = energyValues[i][j] + MINIMUM_OF(energyValues[i][j - 1], energyValues[i + 1][j - 1]);
+				// }
+				// else if (i == energyImage.rows - 1) {
+					// energyValues[i][j] = energyValues[i][j] + MINIMUM_OF(energyValues[i - 1][j - 1], energyValues[i][j - 1]);
+				// }
+				// else {
+					// double pixelValue1 = energyValues[i - 1][j - 1];
+					// double pixelValue2 = energyValues[i][j - 1];
+					// double pixelValue3 = energyValues[i + 1][j - 1];
+					// energyValues[i][j] = energyValues[i][j] + MINIMUM_OF(pixelValue1, MINIMUM_OF(pixelValue2, pixelValue3));
+				// }
+				double pixel1 = energyValues[max((i-1),0)][j-1];
+				double pixel2 = energyValues[i] [j-1];
+				double pixel3 = energyValues [min((i+1),energyImage.rows-1)] [j-1];
+				energyValues[i][j] += MINIMUM_OF(pixel1, MINIMUM_OF(pixel2, pixel3));
 			}
 		}
 
@@ -201,22 +218,22 @@ vector<int> dynamicProgramming(Mat& energyImage, char direction /*Seam_Location 
 		//cout<<minValueIndex<<endl;
 		for (int i = energyImage.cols - 2; i >= 0; i--) {
 			
-			int pixelRate1 = energyValues[max(minValueIndex - 1, 0)][i];
+			int pixelRate1 = energyValues[MAXIMUM_OF(minValueIndex - 1, 0)][i];
 			int pixelRate2 = energyValues[minValueIndex][i];
-			int pixelRate3 = energyValues[min(minValueIndex + 1, energyImage.rows - 1)][i];
+			int pixelRate3 = energyValues[MINIMUM_OF(minValueIndex + 1, energyImage.rows - 1)][i];
 			
-			if (min(pixelRate1, pixelRate2) > pixelRate3) {
+			if (MINIMUM_OF(pixelRate1, pixelRate2) > pixelRate3) {
                			pathIndex = 1;
             		}
-           		else if (min(pixelRate1, pixelRate3) > pixelRate2) {
+           		else if (MINIMUM_OF(pixelRate1, pixelRate3) > pixelRate2) {
                 		pathIndex = 0;
             		}
-            		else if (min(pixelRate2, pixelRate3) > pixelRate1) {
+            		else if (MINIMUM_OF(pixelRate2, pixelRate3) > pixelRate1) {
                			pathIndex = -1;
            		}
 			
 			minValueIndex += pathIndex;
-          		minValueIndex = min(max(minValueIndex, 0), energyImage.rows - 1); // take care of edge cases
+          		minValueIndex = MINIMUM_OF(MAXIMUM_OF(minValueIndex, 0), energyImage.rows - 1); // take care of edge cases
 			indexPath.at(i) = minValueIndex;
 		}
 	}
