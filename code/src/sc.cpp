@@ -106,7 +106,12 @@ vector<int> dynamicProgramming(Mat& energyImage, char direction /*Seam_Location 
 		for (int i = 0; i < energyImage.rows; i++)
 			for (int j = 0; j < energyImage.cols; j++)
 				energyValues[i][j] = (double)energyImage.at<uchar>(i, j);
-
+		
+		/*	updating the table with minimum cost values --  remove extra conditions
+			pixel1 = energyValues[i-1][max((j-1),0]
+			pixel2 = energyValues[i-1] [j]
+			pixel3 = energyValues [i-1] [min((j+1),energyImage.cols-1)]
+		*/
 		//updating the table with minimum cost values
 		for (int i = 1; i < energyImage.rows; i++) {
 			for (int j = 0; j < energyImage.cols; j++) {
@@ -172,7 +177,7 @@ vector<int> dynamicProgramming(Mat& energyImage, char direction /*Seam_Location 
 		/*	updating the table with minimum cost values --  remove extra conditions
 			pixel1 = energyValues[max((i-1),0)][j-1]
 			pixel2 = energyValues[i] [j-1]
-			pixel3 = energyValues [min((i+1),i-1)] [j-1]
+			pixel3 = energyValues [min((i+1),energyImage.rows-1)] [j-1]
 		*/
 		for (int j = 1; j < energyImage.cols; j++) {
 			for (int i = 0; i < energyImage.rows; i++) {
