@@ -5,7 +5,7 @@ Seam carving allows a change in size of the image by modifying the least noticea
 <p align="center">
   <img src="code/build/inputA.jpg" width="736" >
 </p>
-><h4 align="center">Output Image: 536 x 552</h4>
+<h4 align="center">Output Image: 536 x 552</h4>
 <p align="center">
   <img src="code/build/OutputA.jpg" width="536" >
 </p>
@@ -14,7 +14,7 @@ Seam carving allows a change in size of the image by modifying the least noticea
 <p align="center">
   <img src="code/build/inputImage1.jpg" width="605" >
 </p>
-><h4 align="center">Output Image: 455 x 366</h4>
+<h4 align="center">Output Image: 455 x 366</h4>
 <p align="center">
   <img src="code/build/inputImageOutputA.jpg" width="455" >
 </p>
@@ -23,7 +23,7 @@ Seam carving allows a change in size of the image by modifying the least noticea
 <p align="center">
   <img src="code/build/beach.jpg" width="300" >
 </p>
-><h4 align="center">Output Image:100 x 200</h4>
+<h4 align="center">Output Image:100 x 200</h4>
 <p align="center">
   <img src="code/build/outputBeach.jpg" width="100" >
 </p>
